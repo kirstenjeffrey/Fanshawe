@@ -1,0 +1,70 @@
+body {
+color: white;
+background-color: black;
+}		
+
+h1#form-header {
+font-size: 2em;	
+font-family: calibri, Arial, Helvetica;
+color: purple;
+}
+
+h2#form-subheader {
+font-size: 2em;	
+font-family: calibri, Arial, Helvetica;
+color: yellow;
+}
+
+p {
+color: white;
+}	
+
+p.error {
+color: Red;
+}
+
+p.information {
+color: blue;
+}	
+
+@media screen and (max-width: 520px) {
+
+*,
+*:before,
+*:after {
+ box-sizing: border-box;
+} 
+
+form {
+	border: 2px solid #c6c7cc;
+	border-radius: 5px;
+	font: 14px/1.4 "helvetica Neue", Helvetica, Arial, sans-serif; 
+	overflow: hidden;
+	width: 400px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+input {
+	background: #fff;
+	border: 1px solid #c6c7cc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+	padding: 6px;
+	margin-top: 6px;
+	width: 100%;
+}
+
+button {
+	background: linear-gradient (#49708f, #293f50);
+	border: 2;
+	cursor: pointer;
+	font-weight: bold;
+	float: left; 
+	padding: 8px 16px;
+}
+
+}	

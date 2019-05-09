@@ -1,0 +1,93 @@
+﻿<html>
+<head>
+	<title>Sign Up Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="form_style.css" media="screen">
+
+</head>
+
+<body>
+
+	<h1 id='form-header'>Soccer Player Registration Form</h1>
+		<h2 id='form-subheader'> Summer 2019 </h2>
+		<form>
+
+			<p class="status error">
+			<label><b>Name</b> 
+			<input type="text" name="customer_name" required> *
+			</label> 
+			</p>
+
+			<p class="status error">
+			<label><b>Phone</b> 
+			<input type="tel" name="phone_number"> *
+			</label>
+			</p>
+
+			<p class="status error">
+			<label><b>Email</b> 
+			<input type="email" name="email_address"> *
+			</label>
+			</p>
+			
+			<p class="status error">* Required Fields </p>
+
+			<fieldset>
+			<legend>What is your preferred position?</legend>
+			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
+			<p><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
+			<p><label> <input type="radio" name="position" required value="D"> Defense </label></p>
+			<p><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
+			</fieldset>
+
+			<fieldset>
+			<legend>Optional</legend>
+			<p class="status information">
+			<label>Preferred Start Date
+			<input type="date" name="pickup_time" required>
+			</label>
+			</p>
+				
+			<p class="status information">
+			<label>Preferred Field Location
+			<select id="pickup_place" name="pickup_place">
+			<option value="" selected="selected">Select One</option>
+			<option value="NL" >North London</option>
+			<option value="Byron" >Byron</option>
+			<option value="CW" >Citywide</option>
+			</select>
+			</label> 
+			</p>
+
+			<p class="status information">
+			<label>Jersey Number
+			<input type="text" name="jersey_number" required list="numbers">
+			</label>
+
+			<datalist id="numbers">
+				<option value="GK">
+				<option value="02">
+				<option value="03">
+				<option value="04">
+				<option value="05">
+				<option value="06">
+				<option value="07">
+				<option value="08">
+				<option value="09">
+				<option value="10">
+				<option value="11">
+			</datalist>
+			</p>
+
+			<p class="status information">
+			<label>Special Instructions
+			<textarea name="comments" maxlength="500"></textarea>
+			</label>
+			</p>
+			</fieldset>
+			
+			<p><button>Submit Form</button></p>
+
+		</form>
+	</body>
+</html>
