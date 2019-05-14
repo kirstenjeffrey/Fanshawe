@@ -19,13 +19,31 @@ p {
 color: white;
 }	
 
-p.error {
+p.error > label > b {
 color: Red;
 }
 
-p.information {
-color: blue;
+p.information > label > b {
+color: green;
 }	
+
+form b {
+color: Purple;
+}		
+
+body .information b {
+color: yellow;
+}	
+
+h2 ~ h4 {
+	font-style: italic;
+}
+
+h3 + p {
+	font-style: italic;
+}
+
+	
 
 @media screen and (max-width: 520px) {
 

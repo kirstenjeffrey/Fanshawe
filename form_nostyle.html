@@ -10,6 +10,8 @@
 
 	<h1 id='form-header'>Soccer Player Registration Form</h1>
 		<h2 id='form-subheader'> Summer 2019 </h2>
+		<h4>Please fill out and send immediatly</h4>
+		<h4>Must be 18+ in order to fill out form</h4>
 		<form>
 
 			<p class="status error">
@@ -34,22 +36,22 @@
 
 			<fieldset>
 			<legend>What is your preferred position?</legend>
-			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
-			<p><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
-			<p><label> <input type="radio" name="position" required value="D"> Defense </label></p>
-			<p><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
+			<p class="position"><label> <input type="radio" name="position" required value="F"><b>Forward</b></label></p>
+			<p class="position"><label> <input type="radio" name="position" required value="M"><b>Midfield</b></label></p>
+			<p class="position"><label> <input type="radio" name="position" required value="D"><b>Defense</b></label></p>
+			<p class="position"><label> <input type="radio" name="position" required value="GK"><b>Goal Keeper</b></label></p>
 			</fieldset>
 
 			<fieldset>
 			<legend>Optional</legend>
 			<p class="status information">
-			<label>Preferred Start Date
+			<label><b>Preferred Start Date</b>
 			<input type="date" name="pickup_time" required>
 			</label>
 			</p>
 				
 			<p class="status information">
-			<label>Preferred Field Location
+			<label><b>Preferred Field Location</b>
 			<select id="pickup_place" name="pickup_place">
 			<option value="" selected="selected">Select One</option>
 			<option value="NL" >North London</option>
@@ -60,7 +62,7 @@
 			</p>
 
 			<p class="status information">
-			<label>Jersey Number
+			<label><b>Jersey Number</b>
 			<input type="text" name="jersey_number" required list="numbers">
 			</label>
 
@@ -80,7 +82,7 @@
 			</p>
 
 			<p class="status information">
-			<label>Special Instructions
+			<label><b>Special Instructions</b>
 			<textarea name="comments" maxlength="500"></textarea>
 			</label>
 			</p>
@@ -89,5 +91,9 @@
 			<p><button>Submit Form</button></p>
 
 		</form>
+	<h3>Please read the fine print before submitting</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis arcu erat. Donec iaculis felis ac arcu eleifend iaculis. Nam mi lorem, sagittis ut euismod et, scelerisque eget massa. Integer mollis, nulla sed bibendum consectetur, lectus leo ullamcorper libero, sed porta mi sem eget lectus. Proin euismod bibendum porttitor. Donec metus sapien, convallis semper euismod volutpat, consequat vel augue. Sed sagittis odio sem, et ullamcorper velit efficitur ut. Pellentesque facilisis, nibh a sagittis pulvinar, velit lectus vulputate mi, sit amet euismod lectus libero non nisi. Duis tempus mattis mi, eu tincidunt ligula vulputate in. Quisque nec aliquet sapien. Donec eget viverra ex.</P>
+		<p> Proin vitae justo tempus, blandit turpis iaculis, tincidunt sem. Vestibulum sed arcu id libero semper convallis. Vestibulum nec elit et diam sagittis fermentum at quis ligula. Nam condimentum dictum convallis. Cras at ex augue. Duis auctor, eros eu venenatis molestie, orci elit euismod est, in mattis dolor quam et velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla maximus et leo ut vestibulum. Integer blandit porttitor odio, et porttitor nisl lacinia vitae. </P>
+
 	</body>
 </html>
